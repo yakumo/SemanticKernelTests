@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form method="post">
+    <label for="query">AIに質問 : </label>
+    <input type="text" name="queryText" />
+    <input type="submit" value="実行" />
+</form>
+
+<p>
+@Html.Raw(Model.ResultText)
+</p>
