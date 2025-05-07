@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form method="post">
+    <div>質問をどうぞ：</div>
+    <textarea name="prompt" rows="6" cols="80">@Model.Prompt</textarea>
+    <div>
+        <input type="submit" name="serviceType" value="@Sample04Extension.SERVICEKEY_OPENAI"/>
+        <input type="submit" name="serviceType" value="@Sample04Extension.SERVICEKEY_GEMMA" />
+        <input type="submit" name="serviceType" value="@Sample04Extension.SERVICEKEY_PHI" />
+    </div>
+</form>

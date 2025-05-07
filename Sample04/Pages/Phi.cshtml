@@ -1,0 +1,18 @@
+﻿@page
+@model Sample04.Pages.PhiModel
+@{
+}
+
+<div>
+    <span><a href="/openai">OpenAI</a></span>
+    <span><a href="/gemma">Gemma</a></span>
+    <span>Phi</span>
+</div>
+<hr />
+<p>
+    @Model.Prompt
+</p>
+<hr />
+<p>
+    @Html.Raw(Model.AIResult)
+</p>
