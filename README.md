@@ -13,12 +13,12 @@ Semantic Kernel sample sources
 
 - Sample03
 
-  解説は [Semantic Kernelを使ってC#でAI (3)](https://zenn.dev/yakumo3/articles/480c9efce464b1)
+  解説は [Semantic Kernelを使ってC#でAI (3)](https://zenn.dev/yakumo3/articles/480c9efce464b1) 。
   OpenAIでは話者判定の機能が追加されているが、それをSemantic Kernelで実現する方法について。
 
 - Sample04
 
-  解説未公開。
+  解説は [Semantic Kernelを使ってC#でAI (4)](https://zenn.dev/yakumo3/articles/5f555a55916cfa) 。
   Chatの複数モデルやサービスを切り替えて使う際の登録の仕方や使い方など。
 
 - Sample05
@@ -26,3 +26,9 @@ Semantic Kernel sample sources
   説明未公開。
   RAGの機能を使う際に使用するベクターストアの使い方の基本。
   InMemoryを基本としているため、毎回登録処理を行う方式。
+
+- Sample06
+
+  説明未公開。
+  Sample05で使ったベクターストアとプラグイン機能を使ってRAGをするやり方。
+  ついでに安定的に指定したJSONを生成させる方法も付記。
