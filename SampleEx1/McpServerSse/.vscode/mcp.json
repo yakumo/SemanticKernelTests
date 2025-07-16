@@ -1,0 +1,9 @@
+{
+  "inputs": [],
+  "servers": {
+    "McpServerSse": {
+      "type": "sse",
+      "url": "http://localhost:3001/"
+    }
+  }
+}
